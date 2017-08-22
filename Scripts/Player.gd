@@ -16,9 +16,9 @@ func _process(delta):
 	if direction:
 		last_direction = direction
 	
-	if Input.is_action_pressed("ui_left"):
+	if Input.is_action_pressed("move_left"):
 		direction = -1
-	elif Input.is_action_pressed("ui_right"):
+	elif Input.is_action_pressed("move_right"):
 		direction = 1
 	else:
 		direction = 0
