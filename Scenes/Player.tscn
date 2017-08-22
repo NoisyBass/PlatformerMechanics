@@ -21,6 +21,8 @@ script/script = ExtResource( 1 )
 max_speed = 600
 acceleration = 1000
 deceleration = 2000
+jump_force = 800
+gravity = 2000
 
 [node name="Sprite" type="Sprite" parent="."]
 
